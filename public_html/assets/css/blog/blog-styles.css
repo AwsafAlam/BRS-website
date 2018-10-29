@@ -277,3 +277,31 @@ input {
 }
 
 /*# sourceMappingURL=blog-styles.css.map */
+
+/*----------------------
+ * 	Dropdown Section
+ *---------------------- */
+
+ .dropdown{
+ 	display: none;
+ 	position: absolute;
+     width: 130px;
+     padding-top: 15px;
+ }
+
+ .dropdown a{
+     padding: 15px 8px;
+     display: block;
+     background: #4f4fe857;
+
+ }
+
+ .drop{
+     position: relative;
+     display: inline-block;
+ }
+
+ .drop:hover .dropdown{
+ 	display: block;
+
+ }

@@ -628,7 +628,7 @@ ul.grid {
  * 	Newsletter Section
  *--------------------- */
 .contact {
-  background-color: #f7f7f7; }
+  background-color: #fff; }
   .contact form {
     display: flex;
     align-items: center;
@@ -958,5 +958,33 @@ img#roboarm {
 @media (max-width: 1200px) {
   #bsaHolder {
     display: none; } }
+
+/*----------------------
+ * 	Dropdown Section
+ *---------------------- */
+
+ .dropdown{
+ 	display: none;
+ 	position: absolute;
+     width: 130px;
+     padding-top: 15px;
+ }
+
+ .dropdown a{
+     padding: 15px 8px;
+     display: block;
+     background: #4f4fe857;
+
+ }
+
+ .drop{
+     position: relative;
+     display: inline-block;
+ }
+
+ .drop:hover .dropdown{
+ 	display: block;
+
+ }
 
 /*# sourceMappingURL=styles.css.map */

@@ -44,10 +44,15 @@
         <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
         <nav>
             <li><a href="index.php">Home</a></li>
-            <li><a href="carnival.html">Events</a></li>
+            <li class="drop"><a>Gallery</a>
+                <div class="dropdown">
+                    <a href="photo-gallery.html">Photo Gallery</a>
+                    <a href="video-gallery.html">Video Gallery</a>
+                </div>
+            </li>
             <li><a href="blog.php">Blog</a></li>
-                <!-- <li><a href="#">About</a></li> -->
-                <!-- <li><a href="contact.html">Contacts</a></li> -->
+            <!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="contact.html">Contacts</a></li> -->
         </nav>
     </header>
     <section>

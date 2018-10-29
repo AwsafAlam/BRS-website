@@ -5,6 +5,7 @@ html, body {
   box-sizing: border-box;
 }
 
+
 .cd-container {
   width: 90%;
   max-width: 1080px;
@@ -28,7 +29,7 @@ Main components
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
+  margin-top: 50px;
   margin-bottom: 2em;
 }
 
@@ -44,7 +45,7 @@ Main components
 
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 3em;
+    margin-top: 50px;
     margin-bottom: 3em;
   }
 
@@ -56,6 +57,7 @@ Main components
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
+  width: 100%;
 }
 
 .cd-timeline-block:after {
@@ -75,6 +77,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
+    width: 100%;
   }
 
   .cd-timeline-block:first-child {
@@ -218,8 +221,8 @@ Main components
     color: white;
     margin-left: 0;
     padding: 1.6em;
-    width: 36%;
-    margin: 0 5%;
+    width: 40%;
+    margin: 0 2%;
   }
 
   .cd-timeline-content::before {
@@ -240,6 +243,7 @@ Main components
 
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
+
   }
 
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
@@ -259,4 +263,32 @@ Main components
     right: 122%;
     text-align: right;
   }
+}
+
+/*----------------------
+ * 	Dropdown Section
+ *---------------------- */
+
+.dropdown{
+  display: none;
+  position: absolute;
+  width: 130px;
+  padding-top: 15px;
+}
+
+.dropdown a{
+  padding: 15px 8px;
+  display: block;
+  background: #4f4fe857;
+
+}
+
+.drop{
+  position: relative;
+  display: inline-block;
+}
+
+.drop:hover .dropdown{
+  display: block;
+
 }

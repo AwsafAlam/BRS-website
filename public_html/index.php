@@ -25,10 +25,15 @@
 	<header>
 		<a href="#"><img src="assets/img/logo.png" alt="logo"></a>
 		<nav>
-			<li><a href="#">Home</a></li>
-			<li><a href="carnival.html">Events</a></li>
+			<li><a href="index.php">Home</a></li>
+            <li class="drop"><a>Gallery</a>
+                <div class="dropdown">
+                    <a href="photo-gallery.html">Photo Gallery</a>
+                    <a href="video-gallery.html">Video Gallery</a>
+                </div>
+            </li>
             <li><a href="blog.php">Blog</a></li>
-			<!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="#">About</a></li> -->
 			<!-- <li><a href="contact.html">Contacts</a></li> -->
 		</nav>
 	</header>
@@ -406,41 +411,6 @@
 		</ul>
 	</section>
 
-
-	<section class="reviews">
-		<h3 class="title">Still  not Convinced?</h3>
-        <h2>Hear it from the members...</h2>
-        <div class="committee wow slideInLeft">
-            <div class="member-image">
-                <div class="headshot" style="background-image: url('assets/img/hasib_bhai.jpg')">
-
-                </div>
-            </div>
-
-            <div class="member-quote">
-                <p class="quote">"কালকে মিটিং। বিকাল ৪টা। গ্রুপে লিখলে কেউ আসে না। তাই এইখানেই
-                    লিখলাম। সবাই আসবা মাস্ট."</p>
-        		<p class="author">— Irfan Hasib<small> -President (2016-Present)</small></p>
-
-            </div>
-        </div>
-
-        <div class="committee wow slideInRight">
-
-            <div class="member-quote">
-                <p class="quote">"মাত্র দুইদিন আগে রোবটিক্স করে জিতে নিলাম এই ট্রফিটা। তুমিও জিততে চাও? তা দেরি কেন? আজই জয়েন কর বিআরএস এ। (সীমিত সময়ের জন্য)"</p>
-        		<p class="author">— Fahim Faysal Khan<small> -General Secratery (2016-Present)</small></p>
-            </div>
-            <div class="member-image">
-                <div class="headshot" style="background-image: url('assets/img/Fahim_Faysal_bhai.jpg'); margin: 0">
-
-                </div>
-            </div>
-        </div>
-
-
-
-	</section>
 
 
 
