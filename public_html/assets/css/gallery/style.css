@@ -292,3 +292,9 @@ Main components
   display: block;
 
 }
+
+.hall-title{
+	font-family: Calibri;
+	color: white;
+	text-align: center;
+}

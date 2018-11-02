@@ -51,6 +51,7 @@
                 </div>
             </li>
             <li><a href="blog.php">Blog</a></li>
+            <li><a href="hall-of-fame.php">Hall of Fame</a></li>
             <!-- <li><a href="#">About</a></li> -->
             <!-- <li><a href="contact.html">Contacts</a></li> -->
         </nav>

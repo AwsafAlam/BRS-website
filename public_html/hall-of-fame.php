@@ -4,23 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>4th Executive Committee</title>
 
 		<link rel="stylesheet" href="./assets/css/gallery/style.css">
 		<link rel="stylesheet" href="./assets/css/gallery/main.css">
 		<link rel="stylesheet" href="./assets/css/gallery/sim-prev-anim.css">
 		<link rel="stylesheet" href="./assets/css/gallery/materialize.css">
-
-		<?php
-		    if (!isset($_GET["img"])){
-		      $img=0;
-		    }
-		    else{
-            $folder=$_GET["link"];
-            $img=$_GET["img"];
-            }
-		?>
-
 
 </head>
 <body>
@@ -43,15 +32,31 @@
 	</header>
 
     <section class="cd-container" style="padding: 20px; margin: 20px auto">
+        <h1 class="hall-title">4th Executive Committee</h1>
         <div class="row">
-            <?php for ($i=1;$i<=$img;$i++){
-                ?>
-            <div class="col s6" style="padding-bottom: 30px">
-                <img class="responsive-img materialboxed" src="assets/img/gallery/<?php echo $folder.'/'.$i?>.jpg">
-            </div>
             <?php
+            $cnt=0;
+            for ($i=1;$i<=52;$i++) {
+
+                if (file_exists("assets/img/brs_ex_comm/excomm_".$i.".png")==1) {
+                    $cnt+=1;
+                    ?>
+                    <div class="col s6 m4 l3" <?php
+                    if ($cnt%4==0)echo 'style= "padding-bottom: 15px"';
+                    ?>>
+                        <img class="responsive-img materialboxed"
+                             src="assets/img/brs_ex_comm/excomm_<?php echo $i; ?>.png">
+                    </div>
+                    <?php
+                }
             }
             ?>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <h4 style="color: white">List of the 4th Executive Committee</h4>
+            <a href="assets/img/brs_ex_comm/4thexcom.pdf"><img src="assets/img/brs_ex_comm/pdf.png"></a>
         </div>
 	</section> <!-- cd-timeline -->
 
