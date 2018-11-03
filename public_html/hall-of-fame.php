@@ -38,14 +38,14 @@
             $cnt=0;
             for ($i=1;$i<=52;$i++) {
 
-                if (file_exists("assets/img/brs_ex_comm/excomm_".$i.".png")==1) {
+                if (file_exists("assets/img/brs_ex_comm/excomm_".$i.".jpg")==1) {
                     $cnt+=1;
                     ?>
                     <div class="col s6 m4 l3" <?php
                     if ($cnt%4==0)echo 'style= "padding-bottom: 15px"';
                     ?>>
                         <img class="responsive-img materialboxed"
-                             src="assets/img/brs_ex_comm/excomm_<?php echo $i; ?>.png">
+                             src="assets/img/brs_ex_comm/excomm_<?php echo $i; ?>.jpg">
                     </div>
                     <?php
                 }
