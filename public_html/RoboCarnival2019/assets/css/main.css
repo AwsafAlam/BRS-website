@@ -2306,7 +2306,7 @@ Cover
   padding: 0;
   margin: 25px 0;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 0.4s ease-in-out;
