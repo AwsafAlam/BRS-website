@@ -17,6 +17,5 @@ css styles are organised in a modular layout:
 
 TODO :
 
-- PHP Blog Site
-- NewsLetter
-- Photo / Video Gallery
+- Executive panel update
+- Event page update
