@@ -62,7 +62,7 @@
                             <a href="index.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                         </li>
                         <li>
-                            <a href="new-post.php"> <i class="menu-icon fa fa-th"></i>New Post </a>
+                            <a href="new-post.php"> <i class="menu-icon fa fa-th"></i>New Post</a>
                             <a href="stats.php"> <i class="menu-icon fa fa-bar-chart"></i>Stats </a>
                             <a href="member-info.php"> <i class="menu-icon fa fa-area-chart"></i>Member Info </a>
                         </li>
@@ -103,7 +103,8 @@
                     </div>
                 </div>
 
-            </header><!-- /header -->
+            </header>
+            <!-- /header -->
             <!-- Header-->
 
 

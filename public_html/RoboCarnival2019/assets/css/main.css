@@ -1993,12 +1993,14 @@ Cover
   max-width: 800px;
   text-align: left;
 }
+  
 .cover_slider .cover_item {
   width: 100%;
   position: relative;
   height: 100vh;
   min-height: 600px;
   padding: 150px 0;
+  background: #212529;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -2272,11 +2274,14 @@ Cover
 }
 
 @media (max-width: 767px) {
+  .cover_item {
+    background: #212529 !important;
+  }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
     font-size: 18px;
   }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
-    font-size: 46px;
+    font-size: 36px;
   }
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
     font-size: 14px;
