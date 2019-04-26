@@ -94,7 +94,7 @@
                             </h2>
                             <strong class="cover-xl-text">Robo Carnival</strong>
                             <p class="cover-date">
-                                17 December 2019
+                                17 January 2019
                             </p>
                             <a href="#" id="reg" class=" btn btn-primary btn-rounded" >
                                 Register Now
@@ -114,9 +114,9 @@
                             </h2>
                             <strong class="cover-xl-text">Robo Carnival</strong>
                             <p class="cover-date">
-                                17 December 2019
+                                17 January 2019
                             </p>
-                            <a href="#" id="reg" class=" btn btn-primary btn-rounded" >
+                            <a href="#" id="reg1" class=" btn btn-primary btn-rounded" >
                                    Register Now
                             </a>
                         </div>
@@ -134,9 +134,9 @@
                             </h2>
                             <strong class="cover-xl-text">Robo Carnival</strong>
                             <p class="cover-date">
-                                17 December 2019
+                                17 January 2019
                             </p>
-                            <a href="#" id="reg" class=" btn btn-primary btn-rounded" >
+                            <a href="#" id="reg2" class=" btn btn-primary btn-rounded" >
                                 Register Now
                             </a>
                         </div>
@@ -870,9 +870,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.30.0/dist/sweetalert2.all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 <script>
-    document.getElementById("reg").addEventListener("click", function () {
+    var x = document.getElementById("reg").addEventListener("click", function () {
+        console.log("click");
         Swal({
-        title: 'Sorry!',
+        title: 'Oops, You\'re too early!',
         text: 'Registration has not started yet',
         type: 'error',
         confirmButtonText: 'ok'
@@ -880,6 +881,29 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
     });
 
+    var x = document.getElementById("reg1").addEventListener("click", function () {
+        console.log("click");
+        Swal({
+        title: 'Oops, You\'re too early!!',
+        text: 'Registration has not started yet',
+        type: 'error',
+        confirmButtonText: 'ok'
+        });
+        
+    });
+
+var x = document.getElementById("reg2").addEventListener("click", function () {
+        console.log("click");
+        Swal({
+        title: 'Oops, You\'re too early!!',
+        text: 'Registration has not started yet',
+        type: 'error',
+        confirmButtonText: 'ok'
+        });
+        
+    });
+
+    
 </script>
 </body>
 </html>
