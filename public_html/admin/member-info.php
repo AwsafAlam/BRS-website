@@ -34,10 +34,6 @@
          if ($location = mysqli_prepare($con, "UPDATE brs_member SET approved=? WHERE student_id=?")) {
              mysqli_stmt_bind_param($location, "ss",  $_GET['approve'],$_GET['id']);
              mysqli_stmt_execute($location);
-
-
-
-
          }
 
      }
